@@ -238,6 +238,37 @@ footer p {
   color: red;
 }
 
-header{
+header {
   background-color: black;
 }
+
+.foto {
+  display: flex;
+  justify-content: left;
+  height: 300px;
+  border:
+
+}
+
+.lopetegui {
+  display: flex;
+  justify-content:left;
+  height: 250px;
+  
+}
+
+.unaiemery{
+  display: flex;
+  justify-content:right;
+  height: 300px;
+  margin-top: -270px;
+  
+}
+.jugadores {
+  display: flex;
+  justify-content: right;
+  height: 300px;
+  margin-top: -300px;
+
+}
+
