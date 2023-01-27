@@ -8,8 +8,7 @@ body {
 
 html {
   background-image: url(../Imagenes/fondodepantalla.jpg);
-  background-size: cover;
-
+ 
 }
 
 body {
@@ -234,7 +233,7 @@ figcaption {
 }
 
 footer p {
-
+  font-family: 'Chivo Mono' monospace;
   color: red;
 }
 
@@ -271,4 +270,29 @@ header {
   margin-top: -300px;
 
 }
+.cope{
+  display: flex;
+  justify-content: right;
+  margin-top: -220px;
+  }
 
+.giralda{
+  display: flex;
+  justify-content: center;
+  float: center;
+}
+.escudo {
+display: flex;
+justify-content: right;
+margin-top: -230px;;
+}
+
+.hola {
+  display: flex;
+  justify-content: right;
+  margin-top: -230px;
+ 
+}
+footer div{
+  font-family: 'Chivo Mono' monospace;
+}
