@@ -295,3 +295,13 @@ margin-top: -230px;;
 footer div{
   font-family: 'Chivo Mono' monospace;
 }
+.video_kings{
+ width: 100%;
+}
+.video_kings iframe{
+  width: 49%;
+  height: 400px;
+}
+
+
+
