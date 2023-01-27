@@ -1,31 +1,41 @@
 /* || General setup */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-html {  
-  background-color: #36EEE0;
+html {
+  background-image: url(../Imagenes/fondodepantalla.jpg);
+ 
 }
 
 body {
   width: 70%;
   min-width: 800px;
   margin: 0 auto;
- font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+
+
 }
 
 /* || typography */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 
   color: #2a2a2a;
+  background-color: goldenrod;
 }
 
-p, input, li {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p,
+input,
+li {
+
   color: #2a2a2a;
+
 }
 
 
@@ -33,23 +43,28 @@ h1 {
   font-size: 1.8rem;
   text-align: center;
   text-shadow: 2px 2px 10px black;
+  margin-right: 5px;
+
 
 }
 
 h2 {
   font-size: 1.4rem;
   text-align: center;
-  font-family: 'Oswald',serif
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 1.1rem;
 }
 
-p, li {
+p,
+li {
   font-size: 1.1rem;
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
+
 }
 
 /* || header layout */
@@ -58,15 +73,22 @@ header {
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
+
 }
 
 body>* {
   background-color: red;
   padding: 1%;
-  
+
 }
 
-main, header, nav, article, aside, footer, section {
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
   background-color: rgba(227, 245, 247, 0.5);
   padding: 1%;
 }
@@ -74,18 +96,22 @@ main, header, nav, article, aside, footer, section {
 h1 {
   flex: 5;
   text-transform: uppercase;
+
 }
 
 header img {
   display: block;
   height: 60px;
-  
+
+
 }
 
 nav {
   height: 50px;
   flex: 100%;
   display: flex;
+  background-color: black;
+
 }
 
 nav ul {
@@ -100,14 +126,16 @@ nav li {
   display: inline;
   text-align: center;
   flex: 1;
+
 }
 
-nav a, nav span {
+nav a,
+nav span {
   display: inline-block;
-  font-size: 1.2rem;    
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: red;
 
 }
 
@@ -116,22 +144,27 @@ nav a, nav span {
 main {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(216, 41, 41);
 }
 
 article {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  flex: 4 ;
+
+  flex: 4;
+  background-color: rgb(216, 41, 41);
+
 }
 
 section {
   flex: 1 0 80%;
   min-width: 80%;
+  background-color: rgba(218, 77, 77, 0.479);
 }
 
 aside {
   flex: 1;
   margin-left: 10px;
   padding: 1%;
+  background-color: rgb(216, 76, 76);
 }
 
 aside a {
@@ -146,17 +179,19 @@ aside img {
 
 footer {
   margin-top: 10px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Chivo Mono' monospace;
+  background-color: black;
 }
 
 table {
   font-size: 20px;
   border-collapse: collapse;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 
-td, th {
+td,
+th {
   border: 1px solid #a9a9a9;
   padding: 10px;
   text-align: center;
@@ -173,16 +208,91 @@ caption {
 section div {
   text-align: center;
 }
-section table, section div {
-  margin: 0 auto;  
+
+section table,
+section div {
+  margin: 0 auto;
 }
 
-nav ul li{
+nav ul li {
 
-  font-family:'Lora',serif;;
+  font-family: 'Lora', serif;
+
+
 }
 
-footer{
+p {
 
-  font-family:'PT Mono',mono ;
+  font-family: 'Poppins', sans-serif;
+}
+
+figcaption {
+
+  font-family: 'Chivo Mono' monospace;
+
+}
+
+footer p {
+  font-family: 'Chivo Mono' monospace;
+  color: red;
+}
+
+header {
+  background-color: black;
+}
+
+.foto {
+  display: flex;
+  justify-content: left;
+  height: 300px;
+  border:
+
+}
+
+.lopetegui {
+  display: flex;
+  justify-content:left;
+  height: 250px;
+  
+}
+
+.unaiemery{
+  display: flex;
+  justify-content:right;
+  height: 300px;
+  margin-top: -270px;
+  
+}
+.jugadores {
+  display: flex;
+  justify-content: right;
+  height: 300px;
+  margin-top: -300px;
+
+}
+.cope{
+  display: flex;
+  justify-content: right;
+  margin-top: -220px;
+  }
+
+.giralda{
+  display: flex;
+  justify-content: center;
+  float: center;
+}
+.escudo {
+display: flex;
+justify-content: right;
+margin-top: -230px;;
+}
+
+.hola {
+  display: flex;
+  justify-content: right;
+  margin-top: -230px;
+ 
+}
+footer div{
+  font-family: 'Chivo Mono' monospace;
 }
