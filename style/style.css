@@ -179,7 +179,7 @@ aside img {
 
 footer {
   margin-top: 10px;
-  font-family: 'Chivo Mono' monospace;
+  font-family: 'Chivo Mono', monospace;
   background-color: black;
 }
 
@@ -228,12 +228,12 @@ p {
 
 figcaption {
 
-  font-family: 'Chivo Mono' monospace;
+  font-family: 'Chivo Mono', monospace;
 
 }
 
 footer p {
-  font-family: 'Chivo Mono' monospace;
+  font-family: 'Chivo Mono' , monospace;
   color: red;
 }
 
@@ -275,11 +275,7 @@ header {
   margin-top: -220px;
   }
 
-.giralda{
-  display: flex;
-  justify-content: center;
-  float: center;
-}
+
 .escudo {
 display: flex;
 justify-content: right;
@@ -290,10 +286,11 @@ margin-top: -230px;;
   display: flex;
   justify-content: right;
   margin-top: -230px;
+  margin-left: -440px;
  
 }
 footer div{
-  font-family: 'Chivo Mono' monospace;
+  font-family: 'Chivo Mono', monospace;
 }
 .video_kings{
  width: 100%;
@@ -303,5 +300,13 @@ footer div{
   height: 400px;
 }
 
+.europa{
+width: 200px ;
+
+}
+
+.estadio{
+  width: 200px;
+}
 
 
